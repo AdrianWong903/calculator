@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="calculator">
+        <ol>
+            <li><button></button></li>
+            <div class="calculator_display">0</div>
+        </ol>
+        <ul>
+            <div class="calculator_key">
+                <li1><button onclick="displayClear('c')">C</button></li1>
+                <li><button onclick="displayDel('del')">←</button></li>
+                <li><button>%</button></li>
+                <li><button onclick="saveOperator('divide')">÷</button></li>
+        </ul>
+        <ul>
+            <li>
+                <button onclick="displayNumber('7')">7</button>
+            </li>
+            <li><button onclick="displayNumber('8')">8</button></li>
+            <li><button onclick="displayNumber('9')">9</button></li>
+            <li><button onclick="saveOperator('multiply')">*</button></li>
+        </ul>
+        <ul>
+            <li><button onclick="displayNumber('4')">4</button></li>
+            <li><button onclick="displayNumber('5')">5</button></li>
+            <li><button onclick="displayNumber('6')">6</button></li>
+            <li><button onclick="saveOperator('minus')">-</button></li>
+        </ul>
+        <ul>
+            <li><button onclick="displayNumber('1')">1</button></li>
+            <li><button onclick="displayNumber('2')">2</button></li>
+            <li><button onclick="displayNumber('3')">3</button></li>
+            <li><button onclick="saveOperator('add')">+</button></li>
+        </ul>
+        <ul>
+            <li><button>x<sup>2</sup></button></li>
+            <li><button onclick="displayNumber('0')">0</button></li>
+            <li><button onclick="displayNumber('.')">.</button></li>
+            <li><button onclick="displayResult('eq')">=</button></li>
+        </ul>
+    </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+#calculator {
+    width: 200px;
+    border: 1px black;
+}
+
+#result {
+    height: 60px;
+    line-height: 50px;
+    text-align: right;
+    background: #c3acac;
+    font-size: 24px;
+}
+
+.buttons {
+    display: flex;
+}
+
+.btn {
+    flex: 1;
+    height: 50px;
+}
+
+.buttons>div {
+    flex: 1;
+    display: flex;
+}
